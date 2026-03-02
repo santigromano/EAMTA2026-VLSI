@@ -31,7 +31,7 @@ wsl ~ -e bash -c "cd ~ && { [ -d EAMTA2026-VLSI ] || git clone https://github.co
 If you are already on a Linux system, open your terminal and run:
 
 ```bash
-cd ~ && { [ -d EAMTA2026-VLSI ] || git clone https://github.com/Fundacion-Fulgor/EAMTA2026-VLSI.git; } && cd EAMTA2026-VLSI && ./setup.sh --auto
+cd ~ && { [ -d EAMTA2026-VLSI ] || git clone https://github.com/Fundacion-Fulgor/EAMTA2026-VLSI.git } && cd EAMTA2026-VLSI && ./setup.sh --auto
 ```
 
 ### 2. Set Up GitHub SSH Keys (Required)
