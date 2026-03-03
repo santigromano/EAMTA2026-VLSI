@@ -1,8 +1,9 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 N -50 160 -30 160 {lab=in}
 N -50 -20 -50 160 {lab=in}
@@ -17,10 +18,9 @@ N 0 60 70 60 {lab=vdd}
 N 0 80 0 160 {lab=vss}
 N 0 80 70 80 {lab=vss}
 N -0 200 -0 220 {lab=#net1}
-N -0 220 50 220 {lab=#net1}
+N -0 220 70 220 {lab=#net1}
 N 0 -80 0 -60 {lab=a_neg}
 N 0 -80 70 -80 {lab=a_neg}
-N 50 220 70 220 {lab=#net1}
 C {sg13g2_pr/sg13_lv_pmos.sym} 0 -40 1 0 {name=M0
 w=2.0u
 l=0.13u

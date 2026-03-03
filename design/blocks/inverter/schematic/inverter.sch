@@ -1,29 +1,28 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
-N -0 -50 70 -50 {lab=vdd}
+N -0 -50 80 -50 {lab=vdd}
 N -0 -90 -0 -80 {lab=vdd}
-N 0 -90 70 -90 {lab=vdd}
-N 0 10 0 20 {lab=out}
-N 0 50 70 50 {lab=vss}
-N 70 -50 80 -50 {lab=vdd}
-N 70 -90 80 -90 {lab=vdd}
+N 0 -90 80 -90 {lab=vdd}
+N 0 50 80 50 {lab=vss}
 N 80 -90 80 -50 {lab=vdd}
 N 0 80 0 90 {lab=vss}
 N 0 90 80 90 {lab=vss}
 N 80 50 80 90 {lab=vss}
-N 70 50 80 50 {lab=vss}
-N -0 -20 -0 10 {lab=out}
+N 0 0 0 20 {lab=out}
 N -50 -50 -40 -50 {lab=in}
-N -50 -50 -50 50 {lab=in}
+N -50 0 -50 50 {lab=in}
 N -50 50 -40 50 {lab=in}
 N -60 0 -50 0 {lab=in}
 N 0 0 10 0 {lab=out}
 N 80 50 90 50 {lab=vss}
 N 80 -50 90 -50 {lab=vdd}
+N -50 -50 -50 0 {lab=in}
+N -0 -20 0 0 {lab=out}
 C {sg13g2_pr/sg13_lv_nmos.sym} -20 50 0 0 {name=M1
 w=1.0u
 l=0.13u
