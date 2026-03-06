@@ -2,14 +2,6 @@
 
 This guide will help you set up the development environment for the 4-bit counter project.
 
-## Prerequisites
-
-- Linux-based operating system or WSL (Ubuntu 20.04+ recommended)
-    - In case you're on Windows, running `wsl --install` on PowerShell will install WSL (Windows Subsystem for Linux), which is enough to run the tools.
-- podman installed
-   -  Docker is much more erratic with this container and requires adding your user to the docker group, which equals giving it root permissions.
-- distrobox installed (for easier container integration)
-
 ## Environment Setup
 
 ### 1. Automated Installation
