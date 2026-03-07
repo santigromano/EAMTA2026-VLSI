@@ -1,4 +1,4 @@
-# Student Workflow
+# Student Workflow (for advanced students)
 
 This document describes the workflow for student groups working on the 4-bit counter project.
 
