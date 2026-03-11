@@ -55,7 +55,6 @@ git checkout -b group-<N>/<block-name>
 
    ```bash
    cd design
-   mkdir -p ../verification/testbenches/tb_<block-name>.sch
    xschem ../verification/testbenches/tb_<block-name>.sch
    ```
 
