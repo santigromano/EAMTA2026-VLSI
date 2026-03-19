@@ -62,11 +62,8 @@ N 235 180 240 180 {lab=#net4}
 N -340 -595 -265 -595 {lab=VDD}
 N -340 -535 -265 -535 {lab=VSS}
 N -340 -230 -300 -230 {lab=#net1}
-C {blocks/inverter/schematic/inverter.sym} -180 -230 0 0 {name=x1}
 C {blocks/nor2/schematic/nor2.sym} 110 -25 2 0 {name=x2}
-C {blocks/inverter/schematic/inverter.sym} -560 70 0 0 {name=x4}
 C {blocks/nor2/schematic/nor2.sym} 330 -200 0 0 {name=x7}
-C {blocks/inverter/schematic/inverter.sym} 430 -20 1 0 {name=x8}
 C {iopin.sym} -560 -110 2 0 {name=p1 lab=CLK}
 C {iopin.sym} -560 -60 2 0 {name=p2 lab=CLR}
 C {lab_pin.sym} -690 70 0 0 {name=p3 sig_type=std_logic lab=CLK}
@@ -108,3 +105,6 @@ C {blocks/tg/schematic/tg.sym} -380 -230 0 0 {name=x3}
 C {blocks/tg/schematic/tg.sym} 125 -359.6875 0 0 {name=x5}
 C {blocks/tg/schematic/tg.sym} -130 0 0 0 {name=x6}
 C {blocks/tg/schematic/tg.sym} 300 180 0 0 {name=x9}
+C {blocks/inverter/schematic/inverter.sym} -560 70 0 0 {name=x10}
+C {blocks/inverter/schematic/inverter.sym} -180 -230 0 0 {name=x1}
+C {blocks/inverter/schematic/inverter.sym} 430 -20 1 0 {name=x4}

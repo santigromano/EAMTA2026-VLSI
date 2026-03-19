@@ -25,8 +25,8 @@ N 30 30 30 70 {lab=GND}
 C {iopin.sym} 10 -130 0 0 {name=p1 lab=VDD}
 C {iopin.sym} -150 -10 2 0 {name=p3 lab=in}
 C {iopin.sym} 60 -10 0 0 {name=p4 lab=out}
-C {iopin.sym} -50 80 1 0 {name=p5 lab=GND}
-C {/foss/pdks/ihp-sg13g2/libs.tech/xschem/sg13g2_pr/sg13_lv_pmos.sym} -70 -50 0 0 {name=M3
+C {iopin.sym} -50 80 1 0 {name=p5 lab=VSS}
+C {sg13g2_pr/sg13_lv_pmos.sym} -70 -50 0 0 {name=M3
 l=0.15u
 w=1.5u
 ng=1
@@ -34,7 +34,7 @@ m=1
 model=sg13_lv_pmos
 spiceprefix=X
 }
-C {/foss/pdks/ihp-sg13g2/libs.tech/xschem/sg13g2_pr/sg13_lv_nmos.sym} -70 30 0 0 {name=M4
+C {sg13g2_pr/sg13_lv_nmos.sym} -70 30 0 0 {name=M4
 l=0.15u
 w=0.75u
 ng=1
