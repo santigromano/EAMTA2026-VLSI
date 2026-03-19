@@ -53,10 +53,6 @@ C {lab_pin.sym} -50 -240 2 0 {name=p5 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} -50 10 2 0 {name=p6 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} -60 270 2 0 {name=p7 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} -50 510 2 0 {name=p8 sig_type=std_logic lab=VSS}
-C {lab_pin.sym} 240 620 2 0 {name=p9 sig_type=std_logic lab=D4}
-C {lab_pin.sym} 250 380 2 0 {name=p10 sig_type=std_logic lab=D3}
-C {lab_pin.sym} 250 130 2 0 {name=p11 sig_type=std_logic lab=D2}
-C {lab_pin.sym} 250 -110 2 0 {name=p12 sig_type=std_logic lab=D1}
 C {iopin.sym} -520 -140 2 0 {name=p13 lab=CLR}
 C {iopin.sym} -520 -120 2 0 {name=p14 lab=CE}
 C {iopin.sym} -520 -100 2 0 {name=p15 lab=CLK}

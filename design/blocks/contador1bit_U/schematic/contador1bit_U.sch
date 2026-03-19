@@ -27,7 +27,6 @@ N 260 -40 300 -40 {lab=Dn}
 N -340 -260 300 -260 {lab=Dn}
 N -340 -260 -340 -70 {lab=Dn}
 N -440 -70 -340 -70 {lab=Dn}
-C {blocks/dffc/schematic/dffc.sym} 120 -20 0 0 {name=x1}
 C {blocks/xor2/schematic/xor2.sym} -240 -60 0 0 {name=x2}
 C {blocks/and2/schematic/and2.sym} -420 120 1 0 {name=x3}
 C {iopin.sym} -500 -50 2 0 {name=p1 lab=CE}
@@ -41,3 +40,4 @@ C {lab_pin.sym} -550 130 0 0 {name=p8 sig_type=std_logic lab=VSS}
 C {iopin.sym} -240 270 0 0 {name=p9 lab=Sout}
 C {lab_pin.sym} -250 -180 2 0 {name=p10 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} -250 50 0 0 {name=p11 sig_type=std_logic lab=VSS}
+C {blocks/dffc/schematic/dffc.sym} 120 -20 0 0 {name=x1}
