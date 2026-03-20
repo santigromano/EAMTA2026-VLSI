@@ -32,8 +32,8 @@ N -10 -360 90 -360 {lab=vdd}
 N -110 -360 -110 -330 {lab=vdd}
 N 90 -300 90 -280 {lab=#net1}
 N -110 -300 -110 -280 {lab=#net2}
-N 130 -330 150 -330 {lab=Ab}
-N 130 -250 150 -250 {lab=B}
+N 130 -330 150 -330 {lab=B}
+N 130 -250 150 -250 {lab=Ab}
 N -110 -150 -110 -70 {lab=out}
 N 90 -150 90 -70 {lab=out}
 N -110 -220 -110 -150 {lab=out}
@@ -168,7 +168,7 @@ C {iopin.sym} 260 90 1 0 {name=p2 lab=vss}
 C {iopin.sym} -10 -120 0 0 {name=p3 lab=out}
 C {lab_pin.sym} 390 -200 0 1 {name=p5 sig_type=std_logic lab=Ab}
 C {lab_pin.sym} 710 -200 0 1 {name=p7 sig_type=std_logic lab=Bb}
-C {lab_pin.sym} 150 -330 0 1 {name=p8 sig_type=std_logic lab=Ab}
+C {lab_pin.sym} 150 -250 0 1 {name=p8 sig_type=std_logic lab=Ab}
 C {lab_pin.sym} -170 -330 0 0 {name=p9 sig_type=std_logic lab=Bb}
 C {lab_pin.sym} -180 -40 0 0 {name=p12 sig_type=std_logic lab=Ab}
 C {lab_pin.sym} -180 30 0 0 {name=p13 sig_type=std_logic lab=Bb}
@@ -176,5 +176,5 @@ C {iopin.sym} 160 30 2 1 {name=p14 lab=B}
 C {iopin.sym} 160 -40 2 1 {name=p15 lab=A}
 C {lab_pin.sym} -170 -250 0 0 {name=p4 sig_type=std_logic lab=A}
 C {lab_pin.sym} 260 -200 0 0 {name=p6 sig_type=std_logic lab=A}
-C {lab_pin.sym} 150 -250 0 1 {name=p10 sig_type=std_logic lab=B}
+C {lab_pin.sym} 150 -330 0 1 {name=p10 sig_type=std_logic lab=B}
 C {lab_pin.sym} 520 -200 0 0 {name=p11 sig_type=std_logic lab=B}
