@@ -1,0 +1,45 @@
+** sch_path: /home/eamtastudent/EAMTA2026-VLSI/design/blocks/dffc/schematic/dffc.sch
+.subckt dffc D VDD VSS Q CLK CLR Qn
+*.PININFO CLK:B CLR:B Q:B Qn:B VDD:B VSS:B D:B
+x2 VDD CLR net3 net2 VSS nor2
+x7 VDD net4 CLR Q VSS nor2
+x3 CLK VSS net1 D VDD nCLK tg
+x5 nCLK VSS net4 net4 VDD CLK tg
+x6 nCLK VSS net2 net1 VDD CLK tg
+x9 CLK VSS Qn net4 VDD nCLK tg
+x10 VDD nCLK CLK VSS inverter
+x1 VDD net3 net1 VSS inverter
+x4 VDD Qn Q VSS inverter
+.ends
+
+* expanding   symbol:  blocks/nor2/schematic/nor2.sym # of pins=5
+** sym_path: /home/eamtastudent/EAMTA2026-VLSI/design/blocks/nor2/schematic/nor2.sym
+** sch_path: /home/eamtastudent/EAMTA2026-VLSI/design/blocks/nor2/schematic/nor2.sch
+.subckt nor2 vdd A B out vss
+*.PININFO vdd:B A:B B:B vss:B out:B
+M1 out B vss vss sg13_lv_nmos w=0.75u l=0.15u ng=1
+M2 out A vss vss sg13_lv_nmos w=0.75u l=0.15u ng=1
+M3 out B net1 vdd sg13_lv_pmos w=3u l=0.15u ng=2
+M4 net1 A vdd vdd sg13_lv_pmos w=3u l=0.15u ng=2
+.ends
+
+
+* expanding   symbol:  blocks/tg/schematic/tg.sym # of pins=6
+** sym_path: /home/eamtastudent/EAMTA2026-VLSI/design/blocks/tg/schematic/tg.sym
+** sch_path: /home/eamtastudent/EAMTA2026-VLSI/design/blocks/tg/schematic/tg.sch
+.subckt tg E vss VOUT VIN vdd N_E
+*.PININFO VOUT:B E:B N_E:B VIN:B vss:B vdd:B
+M1 VOUT E VIN vss sg13_lv_nmos w=0.75u l=0.15u ng=1
+M2 VOUT N_E VIN vdd sg13_lv_pmos w=1.5u l=0.15u ng=1
+.ends
+
+
+* expanding   symbol:  blocks/inverter/schematic/inverter.sym # of pins=4
+** sym_path: /home/eamtastudent/EAMTA2026-VLSI/design/blocks/inverter/schematic/inverter.sym
+** sch_path: /home/eamtastudent/EAMTA2026-VLSI/design/blocks/inverter/schematic/inverter.sch
+.subckt inverter VDD out in VSS
+*.PININFO VDD:B in:B out:B VSS:B
+M3 out in VDD VDD sg13_lv_pmos w=1.5u l=0.15u ng=1
+M4 out in VSS VSS sg13_lv_nmos w=0.75u l=0.15u ng=1
+.ends
+
