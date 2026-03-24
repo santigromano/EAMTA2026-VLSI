@@ -4,7 +4,7 @@
 x2 VDD net3 CLR net2 VSS nor2
 x7 VDD CLR net4 Q VSS nor2
 x3 CLK VSS net1 D VDD nCLK tg
-x5 nCLK VSS net4 net4 VDD CLK tg
+x5 nCLK VSS net4 net3 VDD CLK tg
 x6 nCLK VSS net2 net1 VDD CLK tg
 x9 CLK VSS Qn net4 VDD nCLK tg
 x10 VDD nCLK CLK VSS inverter
