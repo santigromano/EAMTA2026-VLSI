@@ -77,6 +77,7 @@ N -65 -595 -65 -585 {lab=#net4}
 N -35 -550 -35 -475 {lab=CLR}
 N -500 -675 -500 -505 {lab=VDD}
 N -690 -405 -690 -275 {lab=VSS}
+N -500 -175 -500 -150 {lab=VDD}
 C {blocks/nor2/schematic/nor2.sym} -220 -260 2 0 {name=x2}
 C {blocks/nor2/schematic/nor2.sym} 0 -435 0 0 {name=x7}
 C {iopin.sym} -1210 -140 2 0 {name=p1 lab=CLK}
@@ -86,7 +87,7 @@ C {lab_pin.sym} -1050 -50 2 0 {name=p6 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} -720 -375 3 0 {name=p7 sig_type=std_logic lab=CLK}
 C {lab_pin.sym} -260 -320 2 0 {name=p10 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} -260 -140 2 0 {name=p11 sig_type=std_logic lab=VDD}
-C {lab_pin.sym} -500 -175 3 0 {name=p12 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} -500 -150 3 0 {name=p12 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} -750 -365 3 0 {name=p13 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} -440 -145 3 0 {name=p14 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} -215 -695 1 0 {name=p16 sig_type=std_logic lab=CLK}
